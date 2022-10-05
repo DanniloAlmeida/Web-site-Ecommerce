@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+
+}
+
+
+
+.logo img{
+    height: 90px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+ }
+nav{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+   margin-bottom: 50px;
+
+   
+    
+ }
+
+ a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background: #ff523b;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition:  background 0.5s;
+ }
+ a:hover{
+    background: #555;
+
+ }
+
+ h1{
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+
+   
+ }
+
+ header{
+   padding: 20px;   
+   background: radial-gradient(#fff,#ffd6d6)
+    
+ }
+
+ 
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+main img{
+    height: 300px;
+    width: auto;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.384);
+    
+ }
+
+ .row{
+
+    display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   
+ }
+
+ .col1:hover:hover{
+    transform: translateY(-5px);
+ }
+
+ 
+
+ 
+ 
+ 
+
+
+
+   
+    
+   
+    
+
+
